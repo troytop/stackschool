@@ -1,0 +1,5 @@
+applications:
+- name: stackschool
+  mem: 256M
+  # change the docker_image key if you'd like to point to your own build
+  docker_image: troytop/stackschool

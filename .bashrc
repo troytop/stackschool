@@ -81,7 +81,9 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias vim='vim.tiny'
+if [ -f /usr/bin/vim.tiny ]; then
+    alias vim='vim.tiny'
+fi
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

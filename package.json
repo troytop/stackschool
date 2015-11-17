@@ -1,0 +1,14 @@
+{
+  "name": "stackschool",
+  "version": "0.0.1",
+  "main": "node_modules/tty.js/bin/tty.js",
+  "dependencies": {
+    "tty.js": "0.2.15"
+  },
+  "engines": {
+    "node": "0.10.4"
+  }, 
+  "scripts": {
+       "start": "node node_modules/tty.js/bin/tty.js" 
+  }
+}

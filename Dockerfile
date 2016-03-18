@@ -1,4 +1,4 @@
-FROM node:5.7.1
+FROM node:5.9
 MAINTAINER Troy Topnik <troy.topnik@hpe.com> 
 
 RUN apt-get update \

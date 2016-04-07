@@ -6,7 +6,7 @@
     "tty.js": "0.2.15"
   },
   "engines": {
-    "node": "0.10.4"
+    "node": "0.12.0"
   }, 
   "scripts": {
        "start": "node node_modules/tty.js/bin/tty.js" 

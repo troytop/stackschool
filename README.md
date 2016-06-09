@@ -6,10 +6,9 @@ Can be run as a [Docker App](http://docs.stackato.com/user/deploy/docker-apps.ht
 
 The following useful CLI tools are present:
 
-* stackato 3.2.2
-* helion 3.2.2 (1.3.0.22)
-* cf 6.12.4
-* cf-mgmt 1.3.0
+* stackato 3.2.4
+* hce 1.9.1
+* cf 6.19
 * git
 * vim
 * curl

@@ -7,8 +7,9 @@ Can be run as a [Docker App](http://docs.stackato.com/user/deploy/docker-apps.ht
 The following useful CLI tools are present:
 
 * stackato 3.2.5
-* hce 1.9.20160803220537  
-* cf 6.21
+* cf 6.22.2+a95e24c-2016-10-27
+* hsm 1.0.36-0-ge7a8e6c
+* hce 1.1.20161011124159  
 * git
 * vim
 * curl

@@ -1,9 +1,10 @@
-FROM node:5.11
+FROM node:6
 MAINTAINER Troy Topnik <troy.topnik@hpe.com> 
 
 RUN apt-get update \
-  && apt-get install -y git vim curl unzip \
+  && apt-get install -y git vim curl unzip jq ruby ruby-dev \
   && npm install tty.js \
+  && gem install cf-uaac \
   && useradd -d /home/dev -m -s /bin/bash dev \
   && echo 'dev:helion' | chpasswd
 
